@@ -1,0 +1,220 @@
+body {
+    background-color: #4C5B30;
+}
+
+header {
+  margin: 75px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+    
+    
+    }
+
+.header-gif-container {
+    width: 600px; 
+   
+    
+   }
+
+.header-gif {
+   height: 17.65%;
+   border: 10px solid #434343;
+   position: absolute;
+   right: 74.5%;
+   border-radius: 10px;
+    
+}
+
+div1 {
+  font-family: impact;
+  border: 10px solid #434343; 
+  right: 15%;
+  width: 2300px;
+  height: 19px;
+  padding: 63px 0;
+  text-align: center;
+  line-height: 0.4;
+  border-radius: 10px;
+  font-size: 80px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 14px;
+  text-decoration: none;
+  font-family: impact;
+  font-size: 25px;
+}
+
+li a:hover {
+  background-color: #434343;
+}
+ 
+.toguro-pic {
+  height: 350px;
+  width: 350px;
+  border-radius: 10px;
+  margin-right: auto;
+  border: 5px solid #434343;
+}
+
+.broly-pic {
+  height: 350px;
+  width: 650px;
+  border-radius: 10px;
+  border: 5px solid #434343;
+  }
+
+.zoro {
+  height: 350px;
+  width: 380px;
+  border-radius: 10px;
+  margin-right: auto;
+  border: 5px solid #434343;
+  }
+
+.table_1 {
+  height: 70px;
+  width: 1100px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  border: 5px solid #434343;
+  background-color: #376044;
+}
+input {
+  border: 5px solid #434343;
+  border-radius: 10px;
+  margin: 22.5px auto;
+  
+}
+
+
+.boxed {
+  height: 200px;
+  width: 700px;
+  font-size: 22px;
+  vertical-align: middle;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 1;
+  font-family: impact;
+  color: black;
+  opacity: 0.65;
+  border-radius: 10px;
+  border: 5px solid #434343;
+  background-color: #376044;
+}
+
+body {
+    background-color: #4C5B30;
+}
+
+header {
+  margin: 75px;
+  height: 100px;
+  text-align: center;
+  display: flex;
+      }
+
+div1 {
+  font-family: impact;
+  border: 10px solid #434343; 
+  right: 15%;
+  width: 2300px;
+  height: 19px;
+  padding: 63px 0;
+  text-align: center;
+  line-height: 0.4;
+  border-radius: 10px;
+  font-size: 80px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 17px 14px;
+  text-decoration: none;
+  font-family: impact;
+  font-size: 25px;
+}
+
+li a:hover {
+  background-color: #434343;
+}
+ 
+.vegeta-gif {
+  border: 5px solid #434343;
+  border-radius: 10px;
+  margin: 20px;
+  height: 400px;
+  width: 500px;
+}
+
+.about-me {
+  height: 375px;
+  width: 800px;
+  border-radius: 10px;
+  border: 5px solid #434343;
+  background-color: #376044;
+  text-align: center;
+  line-height: 1;
+  font-family: impact;
+  opacity: 0.75;
+  font-size: 26px;
+  margin: 20px;
+  float: right;
+  padding-top: 27px;
+}
+
+.contact {
+  height: 200px;
+  width: 500px;
+  border-radius: 10px;
+  border: 5px solid #434343;
+  background-color: #376044;
+  text-align: center;
+  line-height: 1;
+  font-family: impact;
+  opacity: 0.75;
+  font-size: 24px;
+  padding-top: 27px;
+  float: left;
+  margin: 20px;
+}
+
+.luffy {
+  border: 5px solid #434343;
+  border-radius: 10px;
+  margin: 20px;
+  height: 400px;
+  width: 700px;
+  float: right;
+  margin-right: 4em;
+  }
