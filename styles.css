@@ -7,9 +7,7 @@ header {
   height: 100px;
   text-align: center;
   display: flex;
-    
-    
-    }
+ }
 
 .header-gif-container {
     width: 600px; 
@@ -23,12 +21,14 @@ header {
    position: absolute;
    right: 74.5%;
    border-radius: 10px;
+   box-shadow: -12px 0px 15px currentcolor;
     
 }
 
 div1 {
   font-family: impact;
   border: 10px solid #434343; 
+  background-color: #376044;
   right: 15%;
   width: 2300px;
   height: 19px;
@@ -37,6 +37,7 @@ div1 {
   line-height: 0.4;
   border-radius: 10px;
   font-size: 80px;
+  
 }
 ul {
   list-style-type: none;
@@ -44,6 +45,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  box-shadow: 0px 0px 15px currentcolor;
 }
 
 li {
@@ -58,6 +60,7 @@ li a {
   text-decoration: none;
   font-family: impact;
   font-size: 25px;
+  
 }
 
 li a:hover {
@@ -70,6 +73,7 @@ li a:hover {
   border-radius: 10px;
   margin-right: auto;
   border: 5px solid #434343;
+  box-shadow: 0px 0px 15px currentcolor;
 }
 
 .broly-pic {
@@ -77,6 +81,7 @@ li a:hover {
   width: 650px;
   border-radius: 10px;
   border: 5px solid #434343;
+  box-shadow: 0px 0px 15px currentcolor;
   }
 
 .zoro {
@@ -85,6 +90,7 @@ li a:hover {
   border-radius: 10px;
   margin-right: auto;
   border: 5px solid #434343;
+  box-shadow: 0px 0px 15px currentcolor;
   }
 
 .table_1 {
@@ -95,11 +101,13 @@ li a:hover {
   border-radius: 10px;
   border: 5px solid #434343;
   background-color: #376044;
+  box-shadow: 0px 0px 15px currentcolor;
 }
 input {
   border: 5px solid #434343;
   border-radius: 10px;
   margin: 22.5px auto;
+  box-shadow: 0px 0px 15px currentcolor;
   
 }
 
@@ -118,6 +126,7 @@ input {
   border-radius: 10px;
   border: 5px solid #434343;
   background-color: #376044;
+  box-shadow: 0px 0px 15px currentcolor;
 }
 
 body {
@@ -129,11 +138,13 @@ header {
   height: 100px;
   text-align: center;
   display: flex;
+  
       }
 
 div1 {
   font-family: impact;
-  border: 10px solid #434343; 
+  border: 10px solid #434343;
+  background-color: #376044;
   right: 15%;
   width: 2300px;
   height: 19px;
@@ -142,6 +153,7 @@ div1 {
   line-height: 0.4;
   border-radius: 10px;
   font-size: 80px;
+  box-shadow: 0px 0px 15px currentcolor;
 }
 ul {
   list-style-type: none;
@@ -149,6 +161,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  box-shadow: 0px 0px 15px currentcolor;
 }
 
 li {
@@ -175,6 +188,7 @@ li a:hover {
   margin: 20px;
   height: 400px;
   width: 500px;
+  box-shadow: 0px 0px 15px currentcolor;
 }
 
 .about-me {
@@ -191,6 +205,7 @@ li a:hover {
   margin: 20px;
   float: right;
   padding-top: 27px;
+  box-shadow: 0px 0px 15px currentcolor;
 }
 
 .contact {
@@ -207,6 +222,7 @@ li a:hover {
   padding-top: 27px;
   float: left;
   margin: 20px;
+  box-shadow: 0px 0px 15px currentcolor;
 }
 
 .luffy {
@@ -217,4 +233,90 @@ li a:hover {
   width: 700px;
   float: right;
   margin-right: 4em;
+  box-shadow: 0px 0px 15px currentcolor;
+  }
+
+ul2 {
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+  border: 5px solid #434343;
+  background-color: #376044;
+  text-align: center;
+  line-height: 1;
+  font-family: impact;
+  opacity: 0.75;
+  font-size: 24px;
+  padding-top: 20px;
+  float: left;
+  margin: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 15px currentcolor;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+
+  li1 {
+    background-color: green;
+    margin-left: px;
+    line-height: 2;
+    padding: 2px 9px;
+    margin: 4px;
+    background-color: lightyellow;
+    border-radius: 10px;
+    border: 5px solid #434343;
+}
+
+  .fa-facebook {
+  background: #3B5998;
+  color: white;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border: 5px solid #434343;
+  border-radius: 10px;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border: 5px solid #434343;
+  border-radius: 10px;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  border: 5px solid #434343;
+  border-radius: 10px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  padding: 10px;
+  border: 5px solid #434343;
+  border-radius: 10px;
+}
+
+footer{
+  float: right;
+  font-size: 50px;
+  width: 100px;
+  margin: 20px;
+  padding-top: 175px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 -550px;
+  margin-right: 0.em;
+  
   }
