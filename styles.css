@@ -332,10 +332,8 @@ li a:hover {
   width: 40%;
 }
 
-
-/* iphone 12 and ipad air */
-
-@media screen and (min-width: 390px) and (max-width:900px) {
+@media screen and (min-width: 390px) and (max-width: 900px) {
+/* code for styling phones and tablets*/
 
   .title {
     font-size: 45px;
@@ -436,3 +434,4 @@ li a:hover {
     width: 100%;
   }
 }
+
