@@ -1,5 +1,5 @@
 body {
-    background-color: #4C5B30;
+  background-color: #4C5B30;
 }
 
 header {
@@ -7,9 +7,9 @@ header {
   text-align: center;
   display: flex;
   justify-content: center;
- }
+}
 
- header.about{
+header.about {
   padding: 5px;
   border: 10px solid #434343;
   border-radius: 10px;
@@ -17,11 +17,11 @@ header {
   padding-bottom: 10px;
   box-shadow: -12px 0px 15px currentcolor;
   margin-top: 17px;
- }
+}
 
- 
-   
-    
+
+
+
 
 .header-gif {
   width: 15.7%;
@@ -32,58 +32,58 @@ header {
   border: 10px solid #434343;
   position: absolute;
   right: 74.5%;
-  
+
   box-shadow: -12px 0px 15px currentcolor;
-    
+
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@400;600;700&display=swap");
 
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	font-family: "Alumni Sans", sans-serif;
-	font-size: 12px;
+  font-family: "Alumni Sans", sans-serif;
+  font-size: 12px;
 }
 
 section {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-height: 0vh;
-	font-size: 4em;
-	background: #4C5B30;
-	color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 0vh;
+  font-size: 4em;
+  background: #4C5B30;
+  color: #222;
   text-transform: uppercase;
-	gap: 30px;
+  gap: 30px;
   margin: 10px;
   margin-top: 90px;
 }
 
 h1 {
-	font-size: 7.0em;
-    
-   
-	
-	@media (max-width: 768px) {
-		font-size: 1.3em;
-	}
+  font-size: 7.0em;
+
+
+
+  @media (max-width: 768px) {
+    font-size: 1.3em;
+  }
 }
 
 .text-shadow {
-	text-transform: uppercase;
-	color: #222;
-	-webkit-text-stroke: #fff;
-	-webkit-text-stroke-width: 1px;
-	transition: all 0.5s ease-in-out;
-	text-align: center;
-	letter-spacing: 0.1em;
-	animation: flicker 0.5s ease-in-out infinite alternate;
+  text-transform: uppercase;
+  color: #222;
+  -webkit-text-stroke: #fff;
+  -webkit-text-stroke-width: 1px;
+  transition: all 0.5s ease-in-out;
+  text-align: center;
+  letter-spacing: 0.1em;
+  animation: flicker 0.5s ease-in-out infinite alternate;
   padding-top: 00px;
 }
 
@@ -94,22 +94,23 @@ h1 {
 
 
 .tags small {
-	@media (max-width: 768px) {
-		font-size: 0.5em;
-	}
+  @media (max-width: 768px) {
+    font-size: 0.5em;
+  }
 }
 
 @keyframes flicker {
-	0% {
-		opacity: 0.5;
-		text-shadow: 2px 2px 10px blue;
-	}
-	100% {
-		opacity: 1;
-		text-shadow:2px 2px 20px blue;
-	}
+  0% {
+    opacity: 0.5;
+    text-shadow: 2px 2px 10px blue;
+  }
+
+  100% {
+    opacity: 1;
+    text-shadow: 2px 2px 20px blue;
+  }
 }
-  
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -131,13 +132,13 @@ li a {
   text-decoration: none;
   font-family: impact;
   font-size: 25px;
-  
+
 }
 
 li a:hover {
   background-color: #434343;
 }
- 
+
 .toguro-pic {
   height: 350px;
   width: 25.3%;
@@ -153,7 +154,7 @@ li a:hover {
   border-radius: 10px;
   border: 5px solid #434343;
   box-shadow: 0px 0px 15px currentcolor;
-  }
+}
 
 .zoro {
   height: 350px;
@@ -161,7 +162,7 @@ li a:hover {
   margin-right: auto;
   border: 5px solid #434343;
   box-shadow: 0px 0px 15px currentcolor;
-  }
+}
 
 .table_1 {
   height: 70px;
@@ -173,12 +174,13 @@ li a:hover {
   background-color: #376044;
   box-shadow: 0px 0px 15px currentcolor;
 }
+
 input {
   border: 5px solid #434343;
   border-radius: 10px;
   margin: 22.5px auto;
   box-shadow: 0px 0px 15px currentcolor;
-  
+
 }
 
 
@@ -200,7 +202,7 @@ input {
 }
 
 body {
-    background-color: #4C5B30;
+  background-color: #4C5B30;
 }
 
 .title {
@@ -216,6 +218,7 @@ body {
   font-size: 80px;
   box-shadow: 0px 0px 15px currentcolor;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -242,7 +245,7 @@ li a {
 li a:hover {
   background-color: #434343;
 }
- 
+
 .vegeta-gif {
   border: 5px solid #434343;
   border-radius: 10px;
@@ -295,139 +298,141 @@ li a:hover {
   float: right;
   margin-right: 4em;
   box-shadow: 0px 0px 15px currentcolor;
-  }
+}
 
- .accordion {
-    background-color: #8FBC8F;
-    color: #222;
-    cursor: pointer;
-    padding: 18px;
-    width: 40%;
-    text-align: left;
-    border: none;
-    transition: 0.4s;
-    border: 5px solid #434343;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px 
-  }
-   
-  .active, .accordion:hover {
-    background-color: #BDB76B;
-    border: 5px solid #434343;
-    border-radius: 10px;
-  }
-  
-  .panel {
-    padding: 0 18px;
-    background-color: #FAFAD2;
-    display: none;
-    
-    border: 5px solid #434343;
-    border-radius: 10px;
-    box-shadow: 0px 0px 15px; 
-    width: 40%;
-  }
+.accordion {
+  background-color: #8FBC8F;
+  color: #222;
+  cursor: pointer;
+  padding: 18px;
+  width: 40%;
+  text-align: left;
+  border: none;
+  transition: 0.4s;
+  border: 5px solid #434343;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px
+}
+
+.active,
+.accordion:hover {
+  background-color: #BDB76B;
+  border: 5px solid #434343;
+  border-radius: 10px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #FAFAD2;
+  display: none;
+
+  border: 5px solid #434343;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px;
+  width: 40%;
+}
 
 
 /* iphone 12 and ipad air */
 
-  @media screen and (min-width: 390px) and (max-width:900px){
-    
-.title {
-  font-size: 45px;
-  width: 100%;
-  margin-top: auto;
-    }
+@media screen and (min-width: 390px) and (max-width:900px) {
 
-.home-header {
-  margin: 0;
-  width: 100%;
-  height: auto;
-  flex-direction: column;
-}
-.header-gif-container {
-  width: 100%;
-}
-img.header-gif {
-  height: auto;
-  width: 100%;
-  position: unset;
-}
+  .title {
+    font-size: 45px;
+    width: 100%;
+    margin-top: auto;
+  }
 
-.toguro-pic {
-  width: 100%;
-  margin-top: auto;
-}
+  .home-header {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
 
-.zoro {
-  width: 100%;
-}
-
-.broly-pic {
-  width: 100%;
-}
-
-.table_1 {
-  width: 100%;
-  height: 100%;
-}
-.boxed {
-  width: 100%;
-  margin-top: auto;
-  line-height: 1.2;
-  margin-bottom: auto;
-}
-.about-me {
-  width: 100%;
-  margin-top: auto;
-  margin-right: auto;
-   margin-bottom: auto;
-}
-  
-.text-shadow {
+  .header-gif-container {
     width: 100%;
   }
 
-.text-shadow:hover {
+  img.header-gif {
+    height: auto;
+    width: 100%;
+    position: unset;
+  }
+
+  .toguro-pic {
+    width: 100%;
+    margin-top: auto;
+  }
+
+  .zoro {
+    width: 100%;
+  }
+
+  .broly-pic {
+    width: 100%;
+  }
+
+  .table_1 {
     width: 100%;
     height: 100%;
   }
 
-h1 {
+  .boxed {
+    width: 100%;
+    margin-top: auto;
+    line-height: 1.2;
+    margin-bottom: auto;
+  }
+
+  .about-me {
+    width: 100%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+
+  .text-shadow {
+    width: 100%;
+  }
+
+  .text-shadow:hover {
+    width: 100%;
+    height: 100%;
+  }
+
+  h1 {
     font-size: 3em;
   }
 
-.vegeta-gif {
-  width: 100%;
-  height: auto;
-  margin: auto;
-}
+  .vegeta-gif {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
 
-.about-me {
-  width: 100%;
-  height: auto;
-  padding-bottom: 27px;
-  
-}
+  .about-me {
+    width: 100%;
+    height: auto;
+    padding-bottom: 27px;
+  }
 
-.contact {
-  width: 100%;
-  margin-left: auto;
-  margin-top: auto;
-  font-size: 21px;
-  line-height: 1.6;
-  margin-bottom: auto;
-}
+  .contact {
+    width: 100%;
+    margin-left: auto;
+    margin-top: auto;
+    font-size: 21px;
+    line-height: 1.6;
+    margin-bottom: auto;
+  }
 
-.luffy {
-  width: 100%;
-  margin: auto;
-  height: auto;
-}
-.accordion {
-  width: 100%;
-}    
- }
+  .luffy {
+    width: 100%;
+    margin: auto;
+    height: auto;
+  }
 
- 
- 
+  .accordion {
+    width: 100%;
+  }
+}
